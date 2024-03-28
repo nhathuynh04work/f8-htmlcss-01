@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -198,13 +203,13 @@ a {
 }
 
 /* ========= Guides ============= */
-.guide {
+.guides {
     padding-top: 93px;
     padding-bottom: 79px;
     margin-bottom: 41px;
 }
 
-.guide .sub-title {
+.guides .sub-title {
     position: relative;
     color: #000339;
     text-align: center;
@@ -213,7 +218,7 @@ a {
     line-height: 1; /* 100% */
 }
 
-.guide .sub-title::before {
+.guides .sub-title::before {
     position: absolute;
     top: -10px;
     left: 50%;
@@ -226,7 +231,7 @@ a {
     background: #000339;
 }
 
-.guide .desc {
+.guides .desc {
     width: 459px;
     max-width: 100%;
     margin: 20px auto 0;
